@@ -105,8 +105,8 @@ for file_index = 1:size(file_list, 1)
     DOSIS_2 = flip(DOSIS_2, 1);
     DOSIS_2 = flip(DOSIS_2, 2);
     
-    ErDOSIS_2 = flip(DOSIS_2, 1);
-    ErDOSIS_2 = flip(DOSIS_2, 2);
+    ErDOSIS_2 = flip(Er_DOSIS_2, 1);
+    ErDOSIS_2 = flip(Er_DOSIS_2, 2);
 
     % Normalizo al maximo
     % Establezco datos de referencia y datos de prueba
